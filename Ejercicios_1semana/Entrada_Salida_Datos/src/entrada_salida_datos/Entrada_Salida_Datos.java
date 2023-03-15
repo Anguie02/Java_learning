@@ -17,12 +17,18 @@ public class Entrada_Salida_Datos {
         // almacenar la entrada de datos
         Scanner entrada = new Scanner(System.in);
         //Mostramos un texto que pida el ingreso  de un número
-        System.out.println("Ingrese un  número entero: ");
+        System.out.println("Ingrese el primer número entero: ");
         //Declaramos una variable de tipo int para 
         //almacenar el ingreso del número
         int numero = entrada.nextInt();
-        //mostramos el número
-        System.out.println("El número ingresado es:"+ numero);
+        //Pedimos el ingreso de un segundo número y lo guardamos en una variable
+        System.out.println("Ingrese el segundo número entero: ");
+        int numero2 = entrada.nextInt();
+        //Mostramos la suma de los numeros
+        System.out.println("La suma de los números es: " + (numero+ numero2));
+        
+        
+        
         
     }
     
