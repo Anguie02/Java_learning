@@ -16,6 +16,9 @@ public class Entrada_Salida_Datos {
         //Creamos  un objeto de la clase escaner para 
         // almacenar la entrada de datos
         Scanner entrada = new Scanner(System.in);
+        //Pedimos el ingreso de nombre
+        System.out.println("Ingrese su nombre: ");
+        //Lo guardamos en una variable
         //Mostramos un texto que pida el ingreso  de un número
         System.out.println("Ingrese el primer número entero: ");
         //Declaramos una variable de tipo int para 

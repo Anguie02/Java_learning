@@ -14,11 +14,17 @@ public class Condicional_if_ejercicio {
     public static void main(String[] args) {
         // Creamos un objeto  de la clase escaner 
         Scanner entrada = new Scanner(System.in);
+        //Ingrese su nombre
+        System.out.println("Ingrese su nombre : ");
+        // Guardamos el nombre 
+        String name;
+        name = entrada.nextLine();
         //Pedimos el ingreso de un numero
         System.out.println("Ingrese un número: ");
         //Declaramos una variable para almacener un dato de tipo entero
         int number = entrada.nextInt();
-        
+        //Mostramos el nombre
+        System.out.println("Hola "+ name);
         //Creamos una condicional para verificar si 
         //un numero es mayor o menor que 10
         // Si es menor 
