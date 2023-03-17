@@ -4,17 +4,28 @@
  */
 package ejercicio_blucle_for;
 
-/**
- *
- * @author Alumno
- */
+import java.util.*
 public class Ejercicio_blucle_for {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        // Algoritmo que muestre la suma de los 10 primeros numeros naturales
+        
+        Scanner entrada = new Scanner(System.in);
+        //Pedimos el ingreso de un número
+         System.out.println("Ingrese un número: ");
+         //Lo asignamos a una variable
+         int numero_ingresado = entrada.nextInt();
+         //Creamos un bucle for para realizar la suma de los números
+         //Inicializamos la variable suma
+         int suma = 0;
+         for (int numero = 1; numero <= numero_ingresado ; numero ++ ){
+            System.out.println(numero);
+            suma = suma + numero;
+                    }
+         System.out.println("La suma es: "+ suma);
+        
+        
     }
     
 }
