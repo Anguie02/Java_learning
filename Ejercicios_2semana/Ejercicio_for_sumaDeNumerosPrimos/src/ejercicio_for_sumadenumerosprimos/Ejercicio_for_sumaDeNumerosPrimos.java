@@ -18,7 +18,7 @@ public class Ejercicio_for_sumaDeNumerosPrimos {
         //Creamos el bucle para realizar la suma de numeros pares
         //Inicializamos la variable suma
         int suma = 0;
-        for (int a=2; a <= numero_ingresado; a += 2){
+        for (int a=2; a <= numero_ingresado; a = a +2){
            suma = suma + a ;
         }
         
