@@ -1,20 +1,33 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package comparacion_numeros;
 
-/**
- *
- * @author Alumno
- */
+import java.util.*;
 public class Comparacion_numeros {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        // Creamos un objeto de la clase Scanner
+        Scanner dato_entrada = new Scanner(System.in);
+        
+        //Pedimos al usuario que digite un numero que se almacenara en una variable
+        System.out.println("Digite un nùmero: ");
+        
+        int numero1 = dato_entrada.nextInt();
+        // Pedimos el ingreso de un segundo numero
+        System.out.println("Digite un segundo numero: ");
+        int numero2 = dato_entrada.nextInt();
+        //Creamos una condicional para comparar los numros ingresados
+        if (numero1 != numero2){
+            System.out.println("El numero "+ numero1+" es diferente a"+ numero2);
+        }  
+         if ( numero1 < numero2){
+            System.out.println("El numero "+ numero1+" es menor que "+ numero2);
+        }
+         if(numero1 <= numero2){
+            System.out.println("El numro "+numero1+ " es menor o igual a "+ numero2);
+        }//fin else if
+       //fin else
+        
     }
     
 }
