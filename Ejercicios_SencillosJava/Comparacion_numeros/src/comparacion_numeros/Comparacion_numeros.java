@@ -18,15 +18,27 @@ public class Comparacion_numeros {
         int numero2 = dato_entrada.nextInt();
         //Creamos una condicional para comparar los numros ingresados
         if (numero1 != numero2){
-            System.out.println("El numero "+ numero1+" es diferente a"+ numero2);
-        }  
-         if ( numero1 < numero2){
+            System.out.println("El numero "+ numero1+" es diferente a "+ numero2);
+           if ( numero1 < numero2){
             System.out.println("El numero "+ numero1+" es menor que "+ numero2);
+            } 
+           else{
+               System.out.println("El numero " + numero1 + "es mayor que "+ numero2);
+           }
         }
-         if(numero1 <= numero2){
+        if( numero1 <= numero2){
             System.out.println("El numro "+numero1+ " es menor o igual a "+ numero2);
-        }//fin else if
-       //fin else
+        }//final if 1 
+        if(numero1 >= numero2){
+            System.out.println("El numro "+numero1+ " es mayor o igual a "+ numero2);
+            
+        
+        }
+        else  {
+            System.out.println("El numero " + numero1 + "es igual que " + numero2);
+        
+        }
+         
         
     }
     
