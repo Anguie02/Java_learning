@@ -13,6 +13,10 @@ for(int i=0; i < arr.length; i++){
 
   System.out.println("Java");
     }
-    
+  //***************************************************************  
+        System.out.println(" J   A   V  V   A");
+        System.out.println(" J  A A  V  V  A  A ");
+        System.out.println(" J  AAAA  V  V  AAAA");
+        System.out.println(" JJ A  A  V A    A");
 }
 }
