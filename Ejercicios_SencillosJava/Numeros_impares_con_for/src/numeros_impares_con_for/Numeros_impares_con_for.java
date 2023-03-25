@@ -21,12 +21,12 @@ public class Numeros_impares_con_for {
             if (numero_impar % 2 == 0){
                 
                 numero_impar = numero_impar + 1;
-                System.out.println("Número impar: "+ numero_impar);
+                //System.out.println("Número impar: "+ numero_impar);
                 
             }else if(numero_impar % 2 != 0){
-            numero_impar= numero_impar +2;    
+                
             System.out.println("Número impar: " + numero_impar);
-            
+            numero_impar= numero_impar +2;
             }
         }
         
