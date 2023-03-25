@@ -16,6 +16,8 @@ public class Numeros_impares_con_for {
         //Pedimos el ingreso del limite
         System.out.println("Ingrese el limite: ");
         int i = objeto_entrada.nextInt();
+        if (i< numero_impar){
+            System.out.println("Error, límite menor!!");}
         //Iteramos
         while(numero_impar <= i){
             if (numero_impar % 2 == 0){
