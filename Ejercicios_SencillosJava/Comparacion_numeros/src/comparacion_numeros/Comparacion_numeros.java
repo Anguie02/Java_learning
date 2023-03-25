@@ -21,16 +21,15 @@ public class Comparacion_numeros {
             System.out.println("El numero "+ numero1+" es diferente a "+ numero2);
            if ( numero1 < numero2){
             System.out.println("El numero "+ numero1+" es menor que "+ numero2);
+            System.out.println("El numero "+ numero2+" es mayor que "+ numero1);
+            
             } 
-           else{
-               System.out.println("El numero " + numero1 + "es mayor que "+ numero2);
-           }
+           
         }
         if( numero1 <= numero2){
             System.out.println("El numro "+numero1+ " es menor o igual a "+ numero2);
-        }//final if 1 
-        if(numero1 >= numero2){
-            System.out.println("El numro "+numero1+ " es mayor o igual a "+ numero2);
+            System.out.println("El numro "+numero2+ " es mayor o igual a "+ numero1);
+        }
             
         
         }
