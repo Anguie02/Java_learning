@@ -8,18 +8,31 @@ public class Numeros_impares_con_for {
     public static void main(String[] args) {
         //Imprimir numeros
         Scanner objeto_entrada = new Scanner (System.in);
-        //Inicializamos una variable
-        int numero_impar = 999;
+        //Inicializamos una
         //Pedimos al usuario que digite un número 
-        System.out.println("Ingrese un número: ");
+        System.out.println("Ingrese un número el inicio: ");
         //Lo almacenamos en la variable inicializada
-        numero_impar = objeto_entrada.nextInt();
-        //Creamos un bucle for para iterar los números 
-        for(int i = 1; i<= numero_impar; i += 2){
-            System.out.println("Númro impar: "+ i);
+        int numero_impar = objeto_entrada.nextInt();
+        //Pedimos el ingreso del limite
+        System.out.println("Ingrese el limite: ");
+        int i = objeto_entrada.nextInt();
+        //Iteramos
+        while(numero_impar <= i){
+            if (numero_impar % 2 == 0){
+                
+                numero_impar = numero_impar + 1;
+                System.out.println("Número impar: "+ numero_impar);
+                
+            }else if(numero_impar % 2 != 0){
+            numero_impar= numero_impar +2;    
+            System.out.println("Número impar: " + numero_impar);
+            
+            }
+        }
+        
           
         
-        }//fin de for
+        //fin de for
         
     }//fin de metodo
     
